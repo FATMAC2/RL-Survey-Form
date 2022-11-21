@@ -1,0 +1,94 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RLCS Questionaire</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+      <h1 id="title">Rocket League Questionaire</h1>
+      <p id="description">Thank you for taking the time to let us know your thoughts on Rocket League!
+      <br>
+      <br>
+      Your answers will be a waste of your time and ignored by everyone important. Everyone knows the important opinions are on <a href="https://www.twitter.com/rocketleague">Twitter</a>.</p>
+    <hr>
+    </section>
+    <section>
+      
+      <form id="survey-form" method="submit">
+        <h3>Personal Details:</h3>
+        <fieldset class="form">
+          <label for="name" id="name-label">Your Name: 
+            <input type="text" id="name" placeholder="First Name" required>
+          </label>
+          <label for="user" id="user-label">RL User Name: 
+            <input type="text" id="user" placeholder="Squishy" required>
+          </label>
+          <label for="email" id="email-label">Email Address: 
+            <input type="email" id="email" placeholder="muffinlover@geocities.com" required>
+          </label>
+          <label for="number" id="number-label">How old are you? 
+            <input type="number" id="number" min="13" max="99" placeholder="69" required>
+          </label>
+        </fieldset>
+
+        <h3>Gameplay Details:</h3>
+        <fieldset class="form">
+          <label for="dropdown" id="dropdown-label">Select your MAIN platform: 
+            <select id="dropdown" required>
+              <option value="">Select One</option>
+              <option value="1">PlayStation 4</option>
+              <option value="2">PlayStation 5</option>
+              <option value="3">XBOX One</option>
+              <option value="4">XBOX Series X/S</option>
+              <option value="5">Steam (PC/Mac/Linux)</option>
+              <option value="6">Epic Games</option>
+              <option value="7">Nintendo Switch</option>
+              <option value="8">Mobile (Sideswipe)</option>
+            </select>
+            </label>
+            <label>Do you watch Rocket League E-Sports?</label>
+          <label for="esports_yes" class="esports_label">
+            <input type="radio" name="esports_radio" id="esports_yes" value="yes"  class="inline"> Yes
+          </label>
+          <label for="esports_no">
+            <input type="radio" name="esports_radio" value="no" id="esports_no" class="inline"> No
+          </label>
+          
+          <label id="checkbox-label">What mechanics do you think you need to improve?</label>
+            <input type="checkbox" name="rotations" id="rotations_checkbox" value="rotations" class="checkbox">
+              <label for="rotations" id="rotations-label" class="checkbox"> Rotations </label>
+
+              <input type="checkbox" name="power-shots" id="power_shots_checkbox" value="power-shots" class="checkbox">
+              <label for="power-shots" id="power-shots-label" class="checkbox"> Power Shots </label>
+
+           <input type="checkbox" name="speed-flips-shots" id="speed_flips_checkbox" value="speed-flips" class="checkbox">
+              <label for="speed-flips" id="speed-flips-label" class="checkbox"> Speed Flips </label>
+<br>
+           <input type="checkbox" name="air-dribble" id="air_dribble_checkbox" value="air-dribble" class="checkbox">
+              <label for="air-dribble" id="air-dribble-label" class="checkbox"> Air Dribble </label>
+
+            <input type="checkbox" name="shadow-defence" id="shadow_defence_checkbox" value="shadow-defence" class="checkbox">
+              <label for="shadow-defence" id="shadow-defence-label" class="checkbox"> Shadow Defence </label>
+
+              <input type="checkbox" name="wave-dash" id="wave_dash_checkbox" value="wave-dash" class="checkbox">
+              <label for="wave-dash" id="wave-dash-label" class="checkbox"> Wave Dash </label>
+              
+              <textarea id="moreinfo" name="moreinfo" rows="7" placeholder="Tell us more about what you like about Rocket League!"></textarea>
+              <input type="submit" value="Submit" id="submit">
+        </fieldset>
+              
+          
+          
+          
+
+
+    </section>
+</body>
+<footer>
+<p>This page is for educational purposes only. Any information submitted will immediately be sent into the ether and lost forever.</p>
+<p>Want to learn how to do this? Visit <a href="https://www.freecodecamp.org">freeCodeCamp</a> to learn more!</p>
+</footer>
+</html>
